@@ -1,0 +1,17 @@
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+	public double math() {
+		
+		return Math.sqrt(5.0);
+	}
+	
+	public void mathTest() {
+		
+		System.out.println(math());
+	}
+}

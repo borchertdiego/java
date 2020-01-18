@@ -1,0 +1,24 @@
+package entities;
+
+public class Account {
+
+	private int accountNumber;
+	private String accountHolder;
+	private double initialValue;
+	
+	public Account() {
+	}
+	
+	public Account(int accountNumber, String accountHolder) {
+		
+		this.accountNumber = accountNumber;
+		this.accountHolder = accountHolder;
+	}
+	
+	public Account(int accountNumber, String accountHolder, double initialValue) {
+		
+		this.accountNumber = accountNumber;
+		this.accountHolder = accountHolder;
+		this.initialValue = initialValue;
+ 	}	
+}

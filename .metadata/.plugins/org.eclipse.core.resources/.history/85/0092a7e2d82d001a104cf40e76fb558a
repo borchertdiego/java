@@ -1,0 +1,12 @@
+package entities;
+
+public class Student {
+
+	public String name;
+	public int[] note;
+	
+	public double finalNote() {
+		
+		return note[0] + note[1] + note[2];
+	}
+}

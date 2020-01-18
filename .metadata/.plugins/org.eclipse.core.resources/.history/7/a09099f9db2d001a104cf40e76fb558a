@@ -1,0 +1,27 @@
+package entities;
+
+public class Student {
+
+	public String name;
+	public double noteOne, noteTwo, noteThree;
+	
+	public double finalNote() {
+		
+		return noteOne + noteTwo + noteThree;
+	}
+	
+	public String toString() {
+		
+		if (finalNote() < 60) {
+			
+			return "FINAL GRADE = " 
+				 + String.format("%.2f", finalNote()) 
+				 + "\nFAILED"
+				 + "\nMISSING "
+				 + String.format("%.2f", (60 - finalNote()))
+				 + " POINTS";
+		}
+		
+		return "FINAL GRADE = " + String.format("%.2f", finalNote()) + "\nPASS";
+	}
+}
