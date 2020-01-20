@@ -49,6 +49,8 @@ public class Program {
 
 		System.out.print("Upate account data:\n" + account);
 		
+		System.out.println("Testando git");
+		
 		sc.close();
 	}
 }
